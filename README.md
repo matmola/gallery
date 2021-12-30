@@ -1,2 +1,2 @@
 # gallery
-gallery of photos practicing css
+https://matmola.github.io/gallery/
