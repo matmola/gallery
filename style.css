@@ -50,7 +50,7 @@ img {
 }
 
 .main-nav a:hover {
-  color: rosybrown;
+  color: #d1dfe2;
 }
 
 .page-header {
@@ -73,4 +73,16 @@ img {
   font-size: 3.5rem;
   font-family: 'Philosopher', serif;
   font-weight: normal;
+}
+
+/* button */
+.button {
+  font-size: 1.1rem;
+  background: white;
+  color: rgb(112, 126, 184);
+  border-radius: 30px;
+  padding: 8px 15px;
+}
+.button:hover {
+  background: #d1dfe2;
 }
