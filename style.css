@@ -16,7 +16,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100%; /*화면 사이즈에 맞게 이미지 배치*/
 }
 
 .logo {
@@ -98,4 +98,36 @@ img {
 
 #home .page-title {
   text-transform: none;
+}
+
+/*-----About page css-----*/
+
+#about {
+  background-image: url('./images/tree.png');
+  height: 170px;
+  margin-bottom: 40px;
+}
+
+#about .page-title {
+  text-align: center;
+}
+
+footer {
+  background: rgb(48, 48, 48);
+  text-align: center;
+  padding: 12px 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+/* 본문 컨텐츠와 사이드바 부분 */
+article {
+  width: 74%;
+}
+
+aside {
+  width: 22%;
 }
