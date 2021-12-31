@@ -131,3 +131,10 @@ article {
 aside {
   width: 22%;
 }
+
+.about-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
