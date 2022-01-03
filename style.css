@@ -151,6 +151,10 @@ aside {
   margin-top: 50px;
 }
 
+.about-contents p {
+  color: black;
+}
+
 .post-info {
   position: relative;
   padding-top: 4px;
@@ -305,7 +309,7 @@ aside p {
 }
 .gallery-content {
   max-width: 560px;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .gallery-content .page-title{
