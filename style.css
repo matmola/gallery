@@ -311,6 +311,7 @@ aside p {
   textarea{
     max-width: 100%;
   }
+
 }
 
 /* Gallery */
@@ -420,3 +421,5 @@ input[type="submit"] {
 iframe{
   width: 100%; /*출력영역에서 빠져나오지 않도록! */
 }
+
+
