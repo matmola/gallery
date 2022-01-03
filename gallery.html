@@ -4,20 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Winter Gallery - Gallery</title>
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/mistletoe.png"> <!--파비콘-->
 </head>
 <body>
-    <div class="container">
-        <div class="item">Item1</div>
-        <div class="item">Item2</div>
-        <div class="item">Item3</div>
-        <div class="item">Item4</div>
-        <div class="item">Item5</div>
-        <div class="item">Item6</div>
+    <div id="gallery" class="big-bg">
+    <header class="page-header wrapper">
+
+        <h1><img class="logo" src="images/mistletoe.png" alt="Winter Gallery Home">Matmola</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> <!-- 상단 nav bar -->
+
+    <div class="gallery-content wrapper">
+        <h2 class="page-title">Gallery</h2>
+        <p>
+            Here you can check out many free photos that are provided from pixabay! All photos are free to be used for any purposes:D
+        </p>
+
+    </div> <!--gallery contents-->
+    
+    <div class="wrapper grid"> 
+        <div class="item">
+            <img src="images/iceland.png" alt="iceland.png">
+            <p>The fox in the iceland</p>
+        </div>
+        <div class="item">
+            <img src="images/nature.png" alt="nature.png">
+            <p>The nature with a tree covered with snow</p>
+        </div>
+        <div class="item">
+            <img src="images/snowtree.png" alt="snowtree.png">
+            <p>One big tree under the clear blue sky</p>
+        </div>
+        <div class="item">
+            <img src="images/mountain.png" alt="mountain.png">
+            <p>A lofty mountain covered with snow</p>
+        </div>
+        <div class="item">
+            <img src="images/snowfall.png" alt="snowfall.png">
+            <p>Wonderful falling scene of snow</p>
+        </div>
+        <div class="item">
+            <img src="images/train.png" alt="train.png">
+            <p>A train rushing through the heavy snow</p>
+        </div>
+        <div class="item">
+            <img src="images/bird.png" alt="bird.png">
+            <p>A bird on a branch</p>
+        </div>
+        <div class="item">
+            <img src="images/aurora.png" alt="aurora.png">
+            <p>Beautiful photo of the nothern light</p>
+        </div>
+        <div class="item"> 
+            <img src="images/road.png" alt="road.png">
+            <p>Photo of a path full of snow</p>
+        </div>
     </div>
+
+
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2021-2022 Matmola Winter Gallery </small></p> 
+            <!--small 태그는 주석을 나타낼 떄 사용하는 태그-->
+            <!--푸터는 body 태그 끝나기 직전에 배치-->
+        </div>
+    </footer>
 </body>
 </html>

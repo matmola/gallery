@@ -42,6 +42,10 @@ img {
   padding: 0 4%;
 }
 
+.wrapper p {
+  color: white;
+}
+
 .main-nav li {
   padding-right: 50px;
 }
@@ -287,5 +291,37 @@ aside p {
     margin-left: 100px;
   }
 
- 
+  /*Gallery*/
+  .gallery-content {
+    margin-top: 20%;
+  }
+
+}
+
+/* Gallery */
+#gallery {
+  background-image : url('./images/castel.png');
+  min-height: 100vh;
+}
+.gallery-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+
+.gallery-content .page-title{
+  text-align: center;
+}
+
+.gallery-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(3, minmax(240px,1fr));
+  /*균일하게 1:1:1 비율인 칼럼을 3개 만들겠다는 뜻, 최솟값 지정*/
+  margin-top: 6%;
+  margin-bottom: 50px;
 }
