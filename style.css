@@ -329,3 +329,10 @@ aside p {
   margin-top: 6%;
   margin-bottom: 50px;
 }
+
+/* CONTACT */
+
+#contact {
+  background-image: url('./images/contact.png');
+  min-height: 100vh;
+}
