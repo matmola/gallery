@@ -4,6 +4,10 @@ html {
   font-size: 100%;
 }
 
+p, h3 {
+  color: black;
+}
+
 /*---------------------------------*/
 body {
   font-family: 'Philosopher', serif, sans-serif;
@@ -129,7 +133,7 @@ footer p {
 
 /* 본문 컨텐츠와 사이드바 부분 */
 article {
-  width: 74%;
+  width: 64%;
 }
 
 aside {
@@ -188,4 +192,100 @@ article img{
 
 article p{
   margin-bottom: 1rem;
+}
+
+.sub-title {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px black solid;
+  font-weight: normal;
+}
+
+aside p {
+  padding: 12px 10px;
+}
+
+.sub-menu {
+  margin-bottom : 60px;
+  list-style: none;
+}
+
+.sub-menu li {
+  border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+  color: #432;
+  padding: 10px;
+  display: block;
+}
+
+.sub-menu a:hover {
+  color: rgb(202, 165, 120);
+}
+
+.home-content p {
+  color: white;
+}
+
+/*----Mobile Responsive----*/
+/*미디어쿼리*/
+@media (max-width: 600px) {  /*화면 너비가 600px일때의 디스플레이 조정*/
+  .page-title {
+    font-size: 2.5 rem;
+  }
+
+  /*Header*/
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  /* HOME */
+  .home-content {
+    margin-top: 20%;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* NEWS */
+  .about-contents {
+    flex-direction: column;
+  }
+  article, aside {
+    width : 100%;
+  }
+  .aside {
+    margin-top: 60px;
+  }
+  .post-info {
+    margin-bottom: 60px;
+  }
+
+  .post-date {
+    width: 80px;
+    height: 80px;
+    font-size: 1.25rem;
+  }
+  .post-date span{
+    font-size: 0.875 rem;
+    padding-top: 2px;
+  }
+  .post-title {
+    font-size: 1.375 rem;
+  }
+  .post-cat {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+  .post-title,
+  .post-cat {
+    margin-left: 100px;
+  }
+
+ 
 }
